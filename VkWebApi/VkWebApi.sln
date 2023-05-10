@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkWebApi", "VkWebApi\VkWebApi.csproj", "{97862C81-AC02-4A1D-935F-75464FEFBE95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtoLibrary", "DtoLibrary\DtoLibrary.csproj", "{6EAB9620-DF67-4B83-AA2F-B15B03FDDF4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkApiTests", "VkApiTests\VkApiTests.csproj", "{18F386CA-11CA-4F69-97DE-D9132888C07F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97862C81-AC02-4A1D-935F-75464FEFBE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97862C81-AC02-4A1D-935F-75464FEFBE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97862C81-AC02-4A1D-935F-75464FEFBE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97862C81-AC02-4A1D-935F-75464FEFBE95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EAB9620-DF67-4B83-AA2F-B15B03FDDF4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EAB9620-DF67-4B83-AA2F-B15B03FDDF4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EAB9620-DF67-4B83-AA2F-B15B03FDDF4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EAB9620-DF67-4B83-AA2F-B15B03FDDF4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F386CA-11CA-4F69-97DE-D9132888C07F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F386CA-11CA-4F69-97DE-D9132888C07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F386CA-11CA-4F69-97DE-D9132888C07F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F386CA-11CA-4F69-97DE-D9132888C07F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
