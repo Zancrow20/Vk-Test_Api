@@ -16,6 +16,6 @@ public class UserDto
 
 public enum Role
 {
-    User,
-    Admin
+    Admin = 1,
+    User = 2
 }

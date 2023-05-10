@@ -10,6 +10,6 @@ public class UserState
 
 public enum Status
 {
-    Active,
-    Blocked
+    Active = 1,
+    Blocked = 2
 }

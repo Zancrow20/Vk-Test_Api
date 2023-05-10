@@ -10,7 +10,6 @@ public sealed class VkDbContext : DbContext
     public VkDbContext(DbContextOptions<VkDbContext> options) : base(options)
     {
         AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
-        Database.EnsureCreated();
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

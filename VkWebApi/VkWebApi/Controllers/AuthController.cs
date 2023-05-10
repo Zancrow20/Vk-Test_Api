@@ -6,7 +6,7 @@ using VkWebApi.Services.AuthService;
 namespace VkWebApi.Controllers;
 
 [ApiController]
-[Route("api/[action]")]
+[Route("api/[controller]")]
 public class AuthController : Controller
 {
     private readonly IAuthService _authService;
@@ -22,7 +22,6 @@ public class AuthController : Controller
         var registerResult = await _authService.Register(user);
         if (registerResult.IsSuccessful)
         {
-            //Response.Headers.Authorization = new StringValues("Basic ", );
             return Ok("User successfully created");
         }
         return BadRequest(registerResult.ErrorMessage);
