@@ -40,8 +40,7 @@ public class UserService : IUserService
 
         if (user == null)
             return false;
-        var state = user.UserState;
-        state.State = Status.Blocked;
+        user.UserStateId = 2;
         await _dbContext.SaveChangesAsync();
         return true;
     }
